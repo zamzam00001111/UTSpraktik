@@ -1,0 +1,87 @@
+.my{
+    background-color:#efefef; 
+    width: auto;  
+    margin: 30px ;
+    padding: 2%; 
+    font-size:20px; 
+    font-family: arial;
+}
+#propil{
+    display:none;
+}
+#propil,span{
+    display: flex;
+    float: right;
+    margin: 50px;
+    margin-top: -45px;
+    font-family: Arial;
+    font-size:13px;
+    
+}
+.tag {
+    margin-right: 30px;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+  }
+  
+a:hover {
+    color: grey;
+}
+#perkenalan{
+
+    margin: 50px;
+    margin-top: 180px;
+    text-align: justify;
+    font-family: Arial;
+    font-size:17px;
+}
+#perkenalan.nama{
+    line-height: 15px;
+}
+.gambarPropil {
+    margin-top: -260px;
+    margin-right: 120px;
+    float: right;
+    border-radius: 1000px; 
+}
+#contact,span{
+    display: flex;
+    float: left; 
+    margin: 24px;;
+    font-family: Arial;
+    font-size:13px;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+#contact,span:hover{
+    color: greenyellow;
+}
+#contact,span,a,img {
+    transition: all 0.5s ease;
+  }
+  
+  a:hover img {
+    filter: invert(50%);
+  }
+
+.copy-right{
+    width: auto;
+    height: 100px;
+    margin-top: 14%;
+    background-color:#888;
+}
+footer {
+    background-color: #efefef;
+    padding: 20px ;
+}
+p {
+    font-size: 14px;
+    text-align: center;
+
+}
+

@@ -1,0 +1,48 @@
+#halaman{
+    display: flex;
+    float: right;
+}
+.tentang,li{
+    display: flex;
+    padding: 8px;
+    margin:10px;
+}
+a{
+    text-decoration: none;
+    font-size: 15px; ;
+}
+h1{
+    text-align: center;
+}
+.berita{
+    /* background: blueviolet; */
+    text-align:center;
+    padding-top: 100px;
+    padding-bottom: 600px;
+    width: 80%;
+    height: 20px;
+    margin: auto;   
+}
+
+.isi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    text-align: justify;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.box:active {
+    transform: scale(1.2);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
